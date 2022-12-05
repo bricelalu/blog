@@ -7,7 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "yarn build && aws s3 sync out/. s3://bricelalu.fr"
+    "deploy": "yarn build && aws s3 sync out/. s3://bricelalu.fr && open http://bricelalu.fr"
   },
   "dependencies": {
     "@emotion/cache": "latest",
