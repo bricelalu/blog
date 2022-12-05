@@ -6,6 +6,7 @@
     "dev": "rm -rf graph-data.json && next dev",
     "build": "next build && next export",
     "start": "next start",
+    "lint": "next lint",
     "deploy": "yarn build && aws s3 sync out/. s3://bricelalu.fr"
   },
   "dependencies": {
