@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "rm -rf graph-data.json && next dev",
-    "build": "next lint && next build && next export",
+    "dev": "rm -rf graph-data.json && cp posts/Attachments/* public/images && next dev",
+    "build": "cp posts/Attachments/* public/images && next lint && next build && next export",
     "start": "next start",
     "deploy": "yarn build && aws s3 sync out/. s3://bricelalu.fr && open http://bricelalu.fr"
   },
