@@ -51,6 +51,8 @@ These are just some basic features for MindStone v1, many more are coming (if I 
 - 🎯 Full text search with `Cmd + K`
 - 🎯 Infinite canvas for browsing through notes and connections
 
+## This is just a simple example.
+
 ### Some know issues
 This an early version of MindStone, which mean there are bugs and issues. Below are some known issues, that I plan to work on:
 - Graphview does not load when clicking on side-bar or click node on graphview, browser reload will refresh it state
