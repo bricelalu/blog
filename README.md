@@ -50,7 +50,7 @@ These are just some basic features for MindStone v1, many more are coming (if I 
 - 🎯 Andy Sliding pane
 - 🎯 Full text search with `Cmd + K`
 - 🎯 Infinite canvas for browsing through notes and connections
-
+test
 ## This is just a simple example.
 
 ### Some know issues
