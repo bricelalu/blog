@@ -1,3 +1,32 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = "light"
+  disableThemeToggle = true
+  ShowBreadCrumbs = false
+  ShowPostNavLinks = false
+  ShowCodeCopyButtons = true
+
+[[params.profileMode.buttons]]
+  name = "Articles"
+  url = "/posts"
+
+[[menu.main]]
+  identifier = "articles"
+  name = "Articles"
+  url = "/posts"
+  weight = 10
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 20
+
+[module]
+  [[module.mounts]]
+    source = "posts/public-blog/posts"
+    target = "content/posts"

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Blogging on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/blogging/</link>
+    <description>Recent content in Blogging on My New Hugo Site</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 22 Nov 2024 15:01:00 +0100</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome to My Blog</title>
+      <link>http://localhost:1313/posts/welcome-to-my-blog/</link>
+      <pubDate>Fri, 22 Nov 2024 15:01:00 +0100</pubDate>
+      <guid>http://localhost:1313/posts/welcome-to-my-blog/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to My Blog&lt;/h1&gt;
+&lt;p&gt;This is a demo blog post written in your Obsidian vault and published through Hugo!&lt;/p&gt;
+&lt;h2 id=&#34;how-this-works&#34;&gt;How This Works&lt;/h2&gt;
+&lt;p&gt;This post lives in your Obsidian vault at &lt;code&gt;posts/public-blog/posts/&lt;/code&gt; and is automatically available to Hugo through a symlink in the &lt;code&gt;content/posts&lt;/code&gt; directory.&lt;/p&gt;
+&lt;h2 id=&#34;benefits-of-this-setup&#34;&gt;Benefits of This Setup&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Write in Obsidian&lt;/strong&gt;: Use all your favorite Obsidian features like backlinks, templates, and plugins&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Publish with Hugo&lt;/strong&gt;: Automatically sync your public posts to your Hugo site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Organized workflow&lt;/strong&gt;: Keep your private notes separate from public blog posts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;You can:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
