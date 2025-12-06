@@ -1,32 +1,101 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://bricelalu.fr/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'PaperMod'
+#title = "Terreau fertil en maturation"
+title = "Jardin Digital, exploration autour du Learn In public and experimentation"
+theme = 'LoveIt'
+
+# Enable emoji support
+enableEmoji = true
+enableRobotsTXT = true
 
 [params]
+  # Site default theme ["auto", "light", "dark"]
   defaultTheme = "light"
-  disableThemeToggle = true
-  ShowBreadCrumbs = false
-  ShowPostNavLinks = false
-  ShowCodeCopyButtons = true
+  # Date format
+  dateFormat = "2006-01-02"
+  # Website description for SEO
+  description = "Platform as product, developer experience, continuous customer discovery, and learning from biology cellular eco-systems"
 
-[[params.profileMode.buttons]]
-  name = "Articles"
-  url = "/posts"
+  # Author config
+  [params.author]
+    name = "Brice Lalu"
+    email = ""
+    link = ""
+
+  # Header config
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      name = "Digital Garden"
+      typeit = false
+
+  # Footer config
+  [params.footer]
+    enable = false
+    hugo = false
+    copyright = true
+    author = false
+    since = 2025
+
+  # Home page config
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      avatarURL = ""
+      title = "Experimentations et découverte"
+      subtitle = "Jardin digital"
+      typeit = false
+      social = false
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  # Page config
+  [params.page]
+    [params.page.toc]
+      enable = true
+      auto = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+    [params.page.share]
+      enable = false
+    [params.page.library]
+      [params.page.library.css]
+        custom = "css/custom.css"
 
 [[menu.main]]
-  identifier = "articles"
+  identifier = "posts"
   name = "Articles"
-  url = "/posts"
-  weight = 10
+  url = "/posts/"
+  weight = 1
 
 [[menu.main]]
   identifier = "about"
-  name = "About"
-  url = "/about"
-  weight = 20
+  name = "A propos"
+  url = "/about/"
+  weight = 2
 
 [module]
   [[module.mounts]]
     source = "posts/public-blog/posts"
     target = "content/posts"
+
+[deployment]
+  [[deployment.targets]]
+    name = "production"
+    URL = "s3://bricelalu.fr?region=eu-west-3"
+
+  [[deployment.matchers]]
+    # Cache static assets for 1 year
+    pattern = "^.+\\.(js|css|svg|ttf|woff|woff2|eot|png|jpg|jpeg|gif|ico)$"
+    cacheControl = "max-age=31536000, no-transform, public"
+    gzip = true
+
+  [[deployment.matchers]]
+    # Cache HTML files for 1 hour
+    pattern = "^.+\\.(html|xml|json)$"
+    cacheControl = "max-age=3600, no-transform, public"
+    gzip = true
