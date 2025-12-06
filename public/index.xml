@@ -1,25 +1,25 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Jardin Digital, exploration autour du Learn In public and experimentation</title>
-        <link>http://localhost:49461/</link>
+        <link>http://localhost:1313/</link>
         <description>Platform as product, developer experience, continuous customer discovery, and learning from biology cellular eco-systems</description>
         <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 22 Nov 2024 15:01:00 &#43;0100</lastBuildDate>
-            <atom:link href="http://localhost:49461/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Fall in love with the process</title>
-    <link>http://localhost:49461/posts/welcome-to-my-blog/</link>
+    <link>http://localhost:1313/posts/welcome-to-my-blog/</link>
     <pubDate>Fri, 22 Nov 2024 15:01:00 &#43;0100</pubDate>
     <author>Brice Lalu</author>
-    <guid>http://localhost:49461/posts/welcome-to-my-blog/</guid>
+    <guid>http://localhost:1313/posts/welcome-to-my-blog/</guid>
     <description><![CDATA[<h1 id="welcome-to-my-digital-garden-">Welcome to my digital garden 🌱</h1>
 <p>This is not a blog, but a digital garden to experiment with &ldquo;publishing&rdquo; frequently, at least once a week. And share book notes.</p>]]></description>
 </item>
 <item>
     <title>Why this blog ?</title>
-    <link>http://localhost:49461/posts/learning-in-public/</link>
+    <link>http://localhost:1313/posts/learning-in-public/</link>
     <pubDate>Fri, 22 Nov 2024 15:01:00 &#43;0100</pubDate>
     <author>Brice Lalu</author>
-    <guid>http://localhost:49461/posts/learning-in-public/</guid>
+    <guid>http://localhost:1313/posts/learning-in-public/</guid>
     <description><![CDATA[<h1 id="sharing-experiments-and-ideas">Sharing experiments and ideas</h1>
 <p>This blog has been created to share experiments and ideas, a sandbox to document key concepts around platform teams and distributed systems:</p>
 <ul>

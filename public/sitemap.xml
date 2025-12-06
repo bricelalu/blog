@@ -2,9 +2,9 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:49461/posts/welcome-to-my-blog/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
-            <loc>http://localhost:49461/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
-            <loc>http://localhost:49461/posts/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
-            <loc>http://localhost:49461/posts/learning-in-public/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
-            <loc>http://localhost:49461/categories/</loc></url><url>
-            <loc>http://localhost:49461/tags/</loc></url></urlset>
+            <loc>http://localhost:1313/posts/welcome-to-my-blog/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/learning-in-public/</loc><lastmod>2024-11-22T15:01:00&#43;01:00</lastmod></url><url>
+            <loc>http://localhost:1313/categories/</loc></url><url>
+            <loc>http://localhost:1313/tags/</loc></url></urlset>
